@@ -81,15 +81,15 @@
     <div id="footer-info">
 
       <div id="site-info">
-        <a href="<?php url_for('@homepage', true) ?>" title="<?php echo __($sf_response->getTitle(), '', 'blueprint') ?>"><?php echo __($sf_response->getTitle(), '', 'blueprint') ?></a>
+        <a href="<?php url_for('@homepage', true) ?>" title="<?php echo __($sf_response->getTitle(), '') ?>"><?php echo __($sf_response->getTitle(), '') ?></a>
       </div><!-- #site-info -->
 
       <div id="site-generator">
         <?php echo __('Powered by', '', 'blueprint') ?><br/>
-        <a href="http://wordpress.org/">WordPress</a> and
+        <a href="http://wordpress.org/">WordPress</a> <?php echo __('and', '', 'blueprint') ?>
         <a href="http://www.symfony-project.org/" style="background:none; padding-left: 0">symfony, The PHP Framework</a><br/>
         <a href="http://www.symfony-project.org/plugins/themeBlueprintPlugin" style="background:none; padding-left: 0">Blueprint Theme</a>
-        by <a href="http://tech.rgou.net" style="background:none; padding-left: 0">Rafael Goulart</a>
+        <?php echo __('by', '', 'blueprint') ?> <a href="http://tech.rgou.net" style="background:none; padding-left: 0">Rafael Goulart</a>
       </div><!-- #site-generator -->
 
     </div><!-- #footer-info -->

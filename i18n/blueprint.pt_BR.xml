@@ -5,7 +5,7 @@
     <header />
     <body>
 
-      <!-- themeTwentytenPlugin menu demo -->
+      <!-- themeBlueprintPlugin menu demo -->
       <trans-unit>
         <source>Home</source>
         <target>Início</target>
@@ -71,7 +71,7 @@
         <target></target>
       </trans-unit>
 
-      <!-- themeTwentytenPlugin sidebar demo -->
+      <!-- themeBlueprintPlugin sidebar demo -->
       <trans-unit>
         <source>Categories</source>
         <target>Categorias</target>
@@ -106,13 +106,13 @@
       </trans-unit>
 
 
-      <!-- themeTwentytenPlugin sidebar widget area demo -->
+      <!-- themeBlueprintPlugin sidebar widget area demo -->
       <trans-unit>
         <source>Calendar</source>
         <target>Agenda</target>
       </trans-unit>
 
-      <!-- themeTwentytenPlugin footer widget area demo -->
+      <!-- themeBlueprintPlugin footer widget area demo -->
       <trans-unit>
         <source>Recent Topics</source>
         <target>Tópicos Recentes</target>
@@ -132,6 +132,20 @@
       <trans-unit>
         <source>Search for</source>
         <target>Pesquisar por</target>
+      </trans-unit>
+
+      <!-- themeBlueprintPlugin footer demo -->
+      <trans-unit>
+        <source>Powered by</source>
+        <target>Movido a</target>
+      </trans-unit>
+      <trans-unit>
+        <source>and</source>
+        <target>e</target>
+      </trans-unit>
+      <trans-unit>
+        <source>by</source>
+        <target>por</target>
       </trans-unit>
 
     </body>

@@ -116,7 +116,7 @@ Edit your `apps/YOUR_APPLICATION/config/settings.yml`
 
 And it's done.
 
-### Templates avaliables ###
+### Themes avaliables in the package###
 
   * blueprint - *Blueprint Default (950px Left Sidebar)*
   * blueprint-950px-left-sidebar - *Blueprint 950px Left Sidebar*

@@ -20,11 +20,11 @@
 
     <h1 id="site-title">
       <span>
-        <a href="<?php url_for('@homepage', true) ?>" title="<?php echo __($sf_response->getTitle(), '', 'blueprint') ?>"><?php echo __($sf_response->getTitle(), '', 'blueprint') ?></a>
+        <a href="<?php url_for('@homepage', true) ?>" title="<?php echo __($sf_response->getTitle(), '') ?>"><?php echo __($sf_response->getTitle(), '') ?></a>
       </span>
     </h1>
 
-    <div id="site-description"><?php $metas = $sf_response->getMetas(); echo ( $metas['description'] ) ? __($metas['description'], '', 'blueprint') : ''; ?></div>
+    <div id="site-description"><?php $metas = $sf_response->getMetas(); echo ( $metas['description'] ) ? __($metas['description'], '') : ''; ?></div>
 
 <?php include_theme_partial('nav') ?>
 

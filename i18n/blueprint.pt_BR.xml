@@ -43,6 +43,10 @@
         <target>Alternador de Temas</target>
       </trans-unit>
       <trans-unit>
+        <source>Reset Theme</source>
+        <target>Voltar ao tema padrão</target>
+      </trans-unit>
+      <trans-unit>
         <source>Sample</source>
         <target>Exemplo</target>
       </trans-unit>
@@ -65,10 +69,6 @@
       <trans-unit>
         <source>Forms</source>
         <target>Formulários</target>
-      </trans-unit>
-      <trans-unit>
-        <source></source>
-        <target></target>
       </trans-unit>
 
       <!-- themeBlueprintPlugin sidebar demo -->

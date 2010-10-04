@@ -26,5 +26,6 @@
           <li>
             <a href="<?php echo url_for('theme_blueprint_demo/xhtmlTestPage') ?>" title="<?php echo __('XHTML Test Page', '', 'blueprint') ?>"><?php echo __('XHTML Test Page', '', 'blueprint') ?></a>
           </li>
+<?php include_theme_partial('nav_themes') ?>
         </ul>
     </div><!-- #access -->

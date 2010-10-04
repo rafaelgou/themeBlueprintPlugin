@@ -59,7 +59,7 @@ all:
       
       blueprint-950px-right-sidebar:
         description:   Blueprint 950px Right Sidebar
-        layout:        blueprint-left-sidebar
+        layout:        blueprint-right-sidebar
         templates_dir: themeBlueprintPlugin/templates/
         stylesheets:
           - ../themeBlueprintPlugin/grid950/screen.css
@@ -69,7 +69,7 @@ all:
 
       blueprint-990px-right-sidebar:
         description:   Blueprint 990px Right Sidebar
-        layout:        blueprint-left-sidebar
+        layout:        blueprint-right-sidebar
         templates_dir: themeBlueprintPlugin/templates/
         stylesheets:
           - ../themeBlueprintPlugin/grid990/screen.css

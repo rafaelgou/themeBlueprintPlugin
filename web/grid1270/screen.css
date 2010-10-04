@@ -365,6 +365,7 @@ a.negative:active {background-color:#d12f19;border:1px solid #d12f19;color:#fff;
 #header {float:left;margin-right:10px;width:1270px;margin-right:0;}
 #footer-widget-area {float:left;margin-right:10px;width:1270px;margin-right:0;}
 #footer-info {float:left;margin-right:10px;width:1190px;padding-right:40px;padding-left:40px;margin-top:1.5em;}
+#content-left {float:left;margin-right:10px;width:630px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}
 #content-three-column {float:left;margin-right:10px;width:670px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}
 #sidebar-right {margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:230px;}
 #site-info {float:left;margin-right:10px;width:870px;}

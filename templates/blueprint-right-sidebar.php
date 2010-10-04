@@ -2,13 +2,13 @@
 
 <div id="main">
 
-<?php include_theme_partial('sidebar-right') ?>
-
-<div id="content">
+<div id="content-left">
 
 <?php echo $sf_content ?>
 
 </div><!-- #content -->
+
+<?php include_theme_partial('sidebar-right') ?>
 
 </div><!-- #main -->
 

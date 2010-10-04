@@ -313,7 +313,7 @@ a.negative:active {background-color:#d12f19;border:1px solid #d12f19;color:#fff;
 #footer-widget-area-third {margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:350px;}
 #nav, #nav  ul {float:left;margin-right:10px;width:990px;margin-right:0;}
 #wrapper {width:990px;margin:0 auto;display:block;}
-#sidebar {float:left;margin-right:10px;width:270px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}
+#sidebar {float:left;margin-right:10px;width:230px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}
 #site-generator {margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:310px;}
 #banner {width:990px;margin:0 auto;float:left;margin-right:10px;width:950px;display:block;}
 #footer-widget-area-second {float:left;margin-right:10px;width:310px;}
@@ -323,6 +323,7 @@ a.negative:active {background-color:#d12f19;border:1px solid #d12f19;color:#fff;
 #header {float:left;margin-right:10px;width:990px;margin-right:0;}
 #footer-widget-area {float:left;margin-right:10px;width:990px;margin-right:0;}
 #footer-info {float:left;margin-right:10px;width:910px;padding-right:40px;padding-left:40px;margin-top:1.5em;}
+#content-left {float:left;margin-right:10px;width:710px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}
 #content-three-column {float:left;margin-right:10px;width:430px;padding-right:24px;margin-right:25px;border-right:1px solid #ddd;}
 #sidebar-right {margin-right:0;padding-right:0;float:left;margin-right:10px;margin-right:0;width:230px;}
 #site-info {float:left;margin-right:10px;width:590px;}

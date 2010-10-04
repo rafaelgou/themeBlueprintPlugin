@@ -53,15 +53,7 @@
 
       <div id="footer-widget-area-third">
         <ul>
-          <li class="widget-container widget_categories">
-            <h3 class="widget-title"><?php echo __('Recent Topics', '', 'blueprint') ?></h3>
-            <ul>
-              <li><a href="">Lorem ipsum dolor sit amet 1</a></li>
-              <li><a href="">Lorem ipsum dolor sit amet 2</a></li>
-              <li><a href="">Lorem ipsum dolor sit amet 3</a></li>
-            </ul>
-          </li>
-
+          
           <li class="widget-container widget_categories">
             <h3 class="widget-title"><?php echo __('Archives', '', 'blueprint') ?></h3>
             <ul>

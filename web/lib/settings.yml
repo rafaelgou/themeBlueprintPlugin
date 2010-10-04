@@ -1,0 +1,132 @@
+# refer to http://www.yaml.org/spec/1.1/ for clarification on YAML collections
+grid950:
+  path: ../grid950
+  plugins:
+    - fancy-type
+    - buttons
+    - nav
+  semantic_classes:
+    "#wrapper": ".container"
+    "#header": ".span-24"
+    "#site-title": ".span-16"
+    "#site-description": ".span-8, last"
+    "#banner": ".span-24, .container"
+    "#nav, #nav  ul": ".span-24"
+    "#main": ".span-24, .prepend-top, .append-bottom"
+    "#content": ".span-17, last"
+    "#sidebar": ".span-6, .colborder"
+    "#sidebar ul li": ".prepend-top"
+    "#content-one-column": ".span-24"
+    "#content-three-column": ".span-9, .colborder"
+    "#sidebar-left": ".span-6, .colborder"
+    "#sidebar-right": ".span-6, .last"
+    "#footer": ".span-24, .prepend-top"
+    "#footer-widget-area": ".span-24"
+    "#footer-widget-area-first": ".span-8"
+    "#footer-widget-area-second": ".span-8"
+    "#footer-widget-area-third": ".span-8, .last"
+    "#footer-info": ".span-22, .prepend-1, .append-1, .prepend-top"
+    "#site-info": ".span-14"
+    "#site-generator": ".span-8, .last"
+
+grid990:
+  path: ../grid990
+  plugins:
+    - fancy-type
+    - buttons
+    - nav
+  custom_layout:
+    column_count: 25 # not working... to semantic_classes. why...
+    column_width: 30
+    gutter_width: 10
+  semantic_classes:
+    "#wrapper": ".container"
+    "#header": ".span-25"
+    "#banner": ".span-24, .container"
+    "#site-title": ".span-17"
+    "#site-description": ".span-8, last"
+    "#nav, #nav  ul": ".span-25"
+    "#main": ".span-25, .prepend-top, .append-bottom"
+    "#content": ".span-17, last"
+    "#sidebar": ".span-7, .colborder"
+    "#sidebar ul li": ".prepend-top"
+    "#content-one-column": ".span-25"
+    "#content-three-column": ".span-11, .colborder"
+    "#sidebar-left": ".span-6, .colborder"
+    "#sidebar-right": ".span-6, .last"
+    "#footer": ".span-25, .prepend-top"
+    "#footer-widget-area": ".span-25"
+    "#footer-widget-area-first": ".span-8"
+    "#footer-widget-area-second": ".span-8"
+    "#footer-widget-area-third": ".span-9, .last"
+    "#footer-info": ".span-23, .prepend-1, .append-1, .prepend-top"
+    "#site-info": ".span-15"
+    "#site-generator": ".span-8, .last"
+
+grid1190:
+  path: ../grid1190
+  plugins:
+    - fancy-type
+    - buttons
+    - nav
+  custom_layout:
+    column_count: 30 # not working... to semantic_classes. why...
+    column_width: 30
+    gutter_width: 10
+  semantic_classes:
+    "#wrapper": ".container"
+    "#header": ".span-30"
+    "#banner": ".span-24, .container"
+    "#site-title": ".span-20"
+    "#site-description": ".span-10, last"
+    "#nav, #nav  ul": ".span-30"
+    "#main": ".span-30, .prepend-top, .append-bottom"
+    "#content": ".span-20, last"
+    "#sidebar": ".span-9, .colborder"
+    "#sidebar ul li": ".prepend-top"
+    "#content-one-column": ".span-30"
+    "#content-three-column": ".span-16, .colborder"
+    "#sidebar-left": ".span-6, .colborder"
+    "#sidebar-right": ".span-6, .last"
+    "#footer": ".span-30, .prepend-top"
+    "#footer-widget-area": ".span-30"
+    "#footer-widget-area-first": ".span-10"
+    "#footer-widget-area-second": ".span-10"
+    "#footer-widget-area-third": ".span-10, .last"
+    "#footer-info": ".span-28, .prepend-1, .append-1, .prepend-top"
+    "#site-info": ".span-20"
+    "#site-generator": ".span-8, .last"
+
+grid1270:
+  path: ../grid1270
+  plugins:
+    - fancy-type
+    - buttons
+    - nav
+  custom_layout:
+    column_count: 32 # not working... to semantic_classes. why...
+    column_width: 30
+    gutter_width: 10
+  semantic_classes:
+    "#wrapper": ".container"
+    "#header": ".span-32"
+    "#banner": ".span-24, .container"
+    "#site-title": ".span-16"
+    "#site-description": ".span-8, last"
+    "#nav, #nav  ul": ".span-32"
+    "#main": ".span-32, .prepend-top, .append-bottom"
+    "#content": ".span-17, last"
+    "#sidebar": ".span-6, .colborder"
+    "#sidebar ul li": ".prepend-top"
+    "#content-one-column": ".span-32"
+    "#content-three-column": ".span-17, .colborder"
+    "#sidebar-left": ".span-6, .colborder"
+    "#sidebar-right": ".span-6, .last"
+    "#footer": ".span-32, .prepend-top"
+    "#footer-widget-area": ".span-32"
+    "#footer-widget-area-first": ".span-10"
+    "#footer-widget-area-second": ".span-11"
+    "#footer-widget-area-third": ".span-11, .last"
+    "#footer-info": ".span-30, .prepend-1, .append-1, .prepend-top"
+    "#site-info": ".span-22"
+    "#site-generator": ".span-8, .last"

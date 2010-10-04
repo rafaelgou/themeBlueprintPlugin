@@ -1,0 +1,228 @@
+all:
+  theme:
+    themes:
+
+      # just a default, same as blueprint-950px-left-sidebar
+      blueprint:
+        description:   Blueprint Default (950px Left Sidebar)
+        layout:        blueprint-left-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid950/screen.css
+          - ../themeBlueprintPlugin/grid950/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid950/ie.css
+
+      #Two columns, left sidebar
+
+      blueprint-950px-left-sidebar:
+        description:   Blueprint 950px Left Sidebar
+        layout:        blueprint-left-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid950/screen.css
+          - ../themeBlueprintPlugin/grid950/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid950/ie.css
+
+      blueprint-990px-left-sidebar:
+        description:   Blueprint 990px Left Sidebar
+        layout:        blueprint-left-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid990/screen.css
+          - ../themeBlueprintPlugin/grid990/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid990/ie.css
+
+      blueprint-1190px-left-sidebar:
+        description:   Blueprint 1190px Left Sidebar
+        layout:        blueprint-left-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1190/screen.css
+          - ../themeBlueprintPlugin/grid1190/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1190/ie.css
+
+      blueprint-1270px-left-sidebar:
+        description:   Blueprint 1270px Left Sidebar
+        layout:        blueprint-left-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1270/screen.css
+          - ../themeBlueprintPlugin/grid1270/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1270/ie.css
+
+      #Two columns, right sidebar
+      
+      blueprint-950px-right-sidebar:
+        description:   Blueprint 950px Right Sidebar
+        layout:        blueprint-left-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid950/screen.css
+          - ../themeBlueprintPlugin/grid950/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid950/ie.css
+
+      blueprint-990px-right-sidebar:
+        description:   Blueprint 990px Right Sidebar
+        layout:        blueprint-left-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid990/screen.css
+          - ../themeBlueprintPlugin/grid990/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid990/ie.css
+
+      blueprint-1190px-right-sidebar:
+        description:   Blueprint 1190px Right Sidebar
+        layout:        blueprint-right-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1190/screen.css
+          - ../themeBlueprintPlugin/grid1190/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1190/ie.css
+
+      blueprint-1270px-right-sidebar:
+        description:   Blueprint 1270px Right Sidebar
+        layout:        blueprint-right-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1270/screen.css
+          - ../themeBlueprintPlugin/grid1270/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1270/ie.css
+      
+      # One column, no sidebars
+
+      blueprint-950px-one-column:
+        description:   Blueprint 950px One Column
+        layout:        blueprint-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid950/screen.css
+          - ../themeBlueprintPlugin/grid950/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid950/ie.css
+
+      blueprint-990px-one-column:
+        description:   Blueprint 990px One Column
+        layout:        blueprint-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid990/screen.css
+          - ../themeBlueprintPlugin/grid990/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid950/ie.css
+
+      blueprint-1190px-one-column:
+        description:   Blueprint 1190px One Column
+        layout:        blueprint-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1190/screen.css
+          - ../themeBlueprintPlugin/grid1190/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1190/ie.css
+
+      blueprint-1270px-one-column:
+        description:   Blueprint 1270px One Column
+        layout:        blueprint-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1270/screen.css
+          - ../themeBlueprintPlugin/grid1270/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1270/ie.css
+
+      # Three column, left and right sidebars
+
+      blueprint-950px-three-column:
+        description:   Blueprint 950px Three Column
+        layout:        blueprint-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid950/screen.css
+          - ../themeBlueprintPlugin/grid950/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid950/ie.css
+
+      blueprint-990px-three-column:
+        description:   Blueprint 990px Three Column
+        layout:        blueprint-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid990/screen.css
+          - ../themeBlueprintPlugin/grid990/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid990/ie.css
+
+      blueprint-1190px-three-column:
+        description:   Blueprint 1190px Three Column
+        layout:        blueprint-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1190/screen.css
+          - ../themeBlueprintPlugin/grid1190/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1190/ie.css
+
+      blueprint-1270px-three-column:
+        description:   Blueprint 1270px Three Column
+        layout:        blueprint-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/grid1270/screen.css
+          - ../themeBlueprintPlugin/grid1270/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/grid1270/ie.css
+
+      # Liquid Layouts
+
+      blueprint-liquidgrid-80%:
+        description:   Blueprint Liquid 80%
+        layout:        blueprint-liquidgrid
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 80
+
+      blueprint-liquidgrid-90%:
+        description:   Blueprint Liquid 90%
+        layout:        blueprint-liquidgrid
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 90
+
+      blueprint-liquidgrid-98%:
+        description:   Blueprint Liquid 98%
+        layout:        blueprint-liquidgrid
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 98
+
+      blueprint-liquidgrid-100%:
+        description:   Blueprint Liquid 100%
+        layout:        blueprint-liquidgrid
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 100

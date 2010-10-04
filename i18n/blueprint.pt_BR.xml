@@ -38,6 +38,38 @@
         <source>XHTML Test Page</source>
         <target>Página Teste XHTML</target>
       </trans-unit>
+      <trans-unit>
+        <source>Theme Switcher</source>
+        <target>Alternador de Temas</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Sample</source>
+        <target>Exemplo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Index</source>
+        <target>Índice</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Sample page</source>
+        <target>Página de Exemplo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Grid</source>
+        <target>Grid</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Typography</source>
+        <target>Tipografia</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Forms</source>
+        <target>Formulários</target>
+      </trans-unit>
+      <trans-unit>
+        <source></source>
+        <target></target>
+      </trans-unit>
 
       <!-- themeTwentytenPlugin sidebar demo -->
       <trans-unit>
@@ -73,31 +105,6 @@
         <target>Agosto</target>
       </trans-unit>
 
-      <!-- themeTwentytenPlugin post demo -->
-      <trans-unit>
-        <source>Posted on %1%</source>
-        <target>Postado em %1%</target>
-      </trans-unit>
-      <trans-unit>
-        <source>by %1%</source>
-        <target>por %1%</target>
-      </trans-unit>
-      <trans-unit>
-        <source>Published on</source>
-        <target>Publicado em</target>
-      </trans-unit>
-      <trans-unit>
-        <source>Leave a comment</source>
-        <target>Deixar um comentário</target>
-      </trans-unit>
-      <trans-unit>
-        <source>Edit</source>
-        <target>Editar</target>
-      </trans-unit>
-      <trans-unit>
-        <source>Continue reading</source>
-        <target>Continue lendo</target>
-      </trans-unit>
 
       <!-- themeTwentytenPlugin sidebar widget area demo -->
       <trans-unit>

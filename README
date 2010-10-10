@@ -118,6 +118,8 @@ And it's done.
 
 ### Themes avaliables in the package###
 
+**Fixed Layouts**
+
   * blueprint - *Blueprint Default (950px Left Sidebar)*
   * blueprint-950px-left-sidebar - *Blueprint 950px Left Sidebar*
   * blueprint-990px-left-sidebar - *Blueprint 990px Left Sidebar*
@@ -135,7 +137,22 @@ And it's done.
   * blueprint-990px-three-column - *Blueprint 990px Three Column*
   * blueprint-1190px-three-column - *Blueprint 1190px Three Column*
   * blueprint-1270px-three-column - *Blueprint 1270px Three Column*
-  * blueprint-liquidgrid-80% - *Blueprint Liquid 80%*
-  * blueprint-liquidgrid-90% - *Blueprint Liquid 90%*
-  * blueprint-liquidgrid-98% - *Blueprint Liquid 98%*
-  * blueprint-liquidgrid-100% - *Blueprint Liquid 100%*
+
+**Liquid Layouts**
+
+  * blueprint-liquidgrid-80%-left-sidebar - *Blueprint Liquid 80% Left Sidebar*
+  * blueprint-liquidgrid-90%-left-sidebar - *Blueprint Liquid 90% Left Sidebar*
+  * blueprint-liquidgrid-98%-left-sidebar - *Blueprint Liquid 98% Left Sidebar*
+  * blueprint-liquidgrid-100%-left-sidebar - *Blueprint Liquid 100% Left Sidebar*
+  * blueprint-liquidgrid-80%-right-sidebar - *Blueprint Liquid 80% Right Sidebar*
+  * blueprint-liquidgrid-90%-right-sidebar - *Blueprint Liquid 90% Right Sidebar*
+  * blueprint-liquidgrid-98%-right-sidebar - *Blueprint Liquid 98% Right Sidebar*
+  * blueprint-liquidgrid-100%-right-sidebar - *Blueprint Liquid 100% Right Sidebar*
+  * blueprint-liquidgrid-80%-one-column - *Blueprint Liquid 80% One Column*
+  * blueprint-liquidgrid-90%-one-column - *Blueprint Liquid 90% One Column*
+  * blueprint-liquidgrid-98%-one-column - *Blueprint Liquid 98% One Column*
+  * blueprint-liquidgrid-100%-one-column - *Blueprint Liquid 100% One Column*
+  * blueprint-liquidgrid-80%-three-column - *Blueprint Liquid 80% Three Column*
+  * blueprint-liquidgrid-90%-three-column - *Blueprint Liquid 90% Three Column*
+  * blueprint-liquidgrid-98%-three-column - *Blueprint Liquid 98% Three Column*
+  * blueprint-liquidgrid-100%-three-column - *Blueprint Liquid 100% Three Column*

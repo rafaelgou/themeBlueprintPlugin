@@ -117,7 +117,7 @@ all:
           - ../themeBlueprintPlugin/grid990/screen.css
           - ../themeBlueprintPlugin/grid990/print.css: { media: print }
         javascripts:  []
-        ie_stylesheet: ../themeBlueprintPlugin/grid950/ie.css
+        ie_stylesheet: ../themeBlueprintPlugin/grid990/ie.css
 
       blueprint-1190px-one-column:
         description:   Blueprint 1190px One Column
@@ -181,48 +181,187 @@ all:
         javascripts:  []
         ie_stylesheet: ../themeBlueprintPlugin/grid1270/ie.css
 
-      # Liquid Layouts
+      # Liquid Layouts, Two columns, left sidebar
 
       blueprint-liquidgrid-80%:
-        description:   Blueprint Liquid 80%
+        description:   Blueprint Liquid 80% Left Sidebar
         layout:        blueprint-liquidgrid
         templates_dir: themeBlueprintPlugin/templates/
         stylesheets:
-          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
           - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
         javascripts:  []
         ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
         percent-width: 80
 
       blueprint-liquidgrid-90%:
-        description:   Blueprint Liquid 90%
+        description:   Blueprint Liquid 90% Left Sidebar
         layout:        blueprint-liquidgrid
         templates_dir: themeBlueprintPlugin/templates/
         stylesheets:
-          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
           - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
         javascripts:  []
         ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
         percent-width: 90
 
       blueprint-liquidgrid-98%:
-        description:   Blueprint Liquid 98%
+        description:   Blueprint Liquid 98% Left Sidebar
         layout:        blueprint-liquidgrid
         templates_dir: themeBlueprintPlugin/templates/
         stylesheets:
-          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
           - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
         javascripts:  []
         ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
         percent-width: 98
 
-      blueprint-liquidgrid-100%:
-        description:   Blueprint Liquid 100%
+      blueprint-liquidgrid-100%-left-sidebar:
+        description:   Blueprint Liquid 100% Left Sidebar
         layout:        blueprint-liquidgrid
         templates_dir: themeBlueprintPlugin/templates/
         stylesheets:
-          - ../themeBlueprintPlugin/liquidgrid/screen2.css
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
           - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
         javascripts:  []
         ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
         percent-width: 100
+
+      # Liquid Layouts, Two columns, right sidebar
+
+      blueprint-liquidgrid-80%-right-sidebar:
+        description:   Blueprint Liquid 80% Right Sidebar
+        layout:        blueprint-liquidgrid-right-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 80
+
+      blueprint-liquidgrid-90%-right-sidebar:
+        description:   Blueprint Liquid 90% Right Sidebar
+        layout:        blueprint-liquidgrid-right-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 90
+
+      blueprint-liquidgrid-98%-right-sidebar:
+        description:   Blueprint Liquid 98% Right Sidebar
+        layout:        blueprint-liquidgrid-right-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 98
+
+      blueprint-liquidgrid-100%-right-sidebar:
+        description:   Blueprint Liquid 100% Right Sidebar
+        layout:        blueprint-liquidgrid-right-sidebar
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 100
+
+      # Liquid Layouts, One column, no sidebars
+
+      blueprint-liquidgrid-80%-one-column:
+        description:   Blueprint Liquid 80% One column
+        layout:        blueprint-liquidgrid-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 80
+
+      blueprint-liquidgrid-90%-one-column:
+        description:   Blueprint Liquid 90% One column
+        layout:        blueprint-liquidgrid-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 90
+
+      blueprint-liquidgrid-98%-one-column:
+        description:   Blueprint Liquid 98% One column
+        layout:        blueprint-liquidgrid-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 98
+
+      blueprint-liquidgrid-100%-one-column:
+        description:   Blueprint Liquid 100% One column
+        layout:        blueprint-liquidgrid-one-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 100
+
+      # Liquid Layouts, Three column, left and right sidebars
+
+      blueprint-liquidgrid-80%-three-column:
+        description:   Blueprint Liquid 80% Three column
+        layout:        blueprint-liquidgrid-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 80
+
+      blueprint-liquidgrid-90%-three-column:
+        description:   Blueprint Liquid 90% Three column
+        layout:        blueprint-liquidgrid-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 90
+
+      blueprint-liquidgrid-98%-three-column:
+        description:   Blueprint Liquid 98% Three column
+        layout:        blueprint-liquidgrid-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 98
+
+      blueprint-liquidgrid-100%-three-column:
+        description:   Blueprint Liquid 100% Three column
+        layout:        blueprint-liquidgrid-three-column
+        templates_dir: themeBlueprintPlugin/templates/
+        stylesheets:
+          - ../themeBlueprintPlugin/liquidgrid/screen.css
+          - ../themeBlueprintPlugin/liquidgrid/print.css: { media: print }
+        javascripts:  []
+        ie_stylesheet: ../themeBlueprintPlugin/liquidgrid/ie.css
+        percent-width: 100
+
